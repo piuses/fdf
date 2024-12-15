@@ -1,21 +1,25 @@
 <?php
 
     $name = $_POST['name'];
-    $tel = $_POST['tel'];
     $email = $_POST['email'];
+    $tel = $_POST['tel'];
+    
     
     
     $name = htmlspecialchars($name);
-    $tel = htmlspecialchars($tel);
     $email = htmlspecialchars($email);
+    $tel = htmlspecialchars($tel);
+    
     
     $name = urldecode($name);
-    $tel = urldecode($tel);
     $email = urldecode($email);
+    $tel = urldecode($tel);
+    
     
     $name = trim($name);
-    $tel = trim($tel);
     $email = trim($email);
+    $tel = trim($tel);
+    
     
     
     if(mail("bogdanpav2289@gmail.com",
