@@ -308,7 +308,7 @@ img{
 .fixed-menu__list-contacts a{
     background: #3481EB;
     color: #fff !important;
-    border: 1px solid #3481EB;
+    border: 1px solid #3481EB !important;
 }
 .fixed-menu__list_link:hover{
     color: #3481EB;
